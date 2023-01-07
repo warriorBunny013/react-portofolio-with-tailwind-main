@@ -22,7 +22,7 @@ function Home() {
               <p className=" pt-2 content-center text-1xl text-white font-bold">Professional Title</p></div>
           </div>
         </section>
-        <section className="flex px-6 mb-10">
+        <section className="flex px-10 mb-10">
           <div class="sidebar">
             <div class="contacts" className="">
               <div className="cursor-pointer flex pt-5 pb-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
@@ -51,9 +51,10 @@ function Home() {
             </div>
             <div class="sumarry">
             <h3 className="  text-slate-800 text-lg font-bold pt-5 uppercase">Summary</h3>
-            <p className="leading-5 text-xs italic pt-2 pt-3 pb-5">
-                Your summary goes here. It's the last 
-                <span className="text-black-200 font-bold">stage in the resume writing process </span>
+            <p className="leading-5  text-xs italic pt-2 pt-3 pb-2">
+                Your summary goes here. It's the
+                <span className="text-black-200 font-bold"> last stage in the resume writing 
+                process </span>
                 ,so pick it up in the end. Focus more on what value you can provide, instead of what you are looking for.Limit it to <span className="text-black-200 font-bold"> 2-3 lines max </span>
                
               </p>
@@ -94,34 +95,34 @@ function Home() {
             </div>
             </div>
             <div class="technical-skills">
-            <h3 className="  text-slate-700 text-lg font-bold pt-5 uppercase">technical skills</h3>
-            <p className="text-xs italic pt-2 pt-3 pb-5">
-              <span className="text-black-200 font-bold">Languages: </span>
-               VB6,SQL,web services-C#,C,C++,java,Perl
+            <h3 className="  text-slate-700 text-lg font-bold pt-5 uppercase"> technical skills</h3>
+            <p className="text-xs italic pt-2 pt-3 pb-2 leading-6">
+              <span className="text-sm text-black-200 font-bold"> Languages : </span>
+               VB6 , SQL , Web Services-C#,C,C++, java, Perl
               </p>
-             <ul className="flex italic flex-col text-xs font-medium list-disc pl-5 text-gray-500 dark:text-gray-200">
-                <li><span className="text-black-200 font-bold">operating systems: </span>Windows (XP NT 3.X-4.0 2000 2003) and UNIX</li>
+             <ul className="flex  italic flex-col text-xs font-medium leading-6 list-disc pl-2 text-gray-500 dark:text-gray-200">
+                <li><span className="text-sm text-black-200 font-bold"> Operating  Systems  : </span>   Windows  ( XP NT 3.X-4.0 2000 2003 ) and UNIX</li>
             
-                <li><span className="text-black-200 font-bold">Databases: </span> MS SQL Server (2008,2005,2000,7.0.6.5.6.0),MS Acess,FoxPro,DTS,DB2</li>
+                <li><span className=" text-sm text-black-200 font-bold"> Databases : </span> MS SQL Server (2008,2005,2000,7.0.6.5.6.0) , MS Acess , FoxPro , DTS , DB2</li>
               </ul>
              
           </div>
           </div>
           <div class="main-content" className="pl-10">
             <div class="box-content">
-            <h3 className="text-xl font-bold pl-3 pt-5 text-slate-700 uppercase">Personal experience</h3>
+            <h3 className="text-xl font-bold pl-3 pt-2 text-slate-700 uppercase">Personal experience</h3>
             
             <div className="flex justify-between">
-              <h3 className="  text-slate-700 text-base font-bold pl-3 pt-5">Official Designation</h3>
-              <p className="text-sm text-slate-800 font-medium pt-5">june'23 - sep'23</p>
+              <h3 className="  text-slate-700 text-base font-bold pl-3 pt-3">Official Designation</h3>
+              <p className="text-sm text-slate-800 font-medium pt-3">June'23 - Sep'23</p>
             </div>
-            <div className=" text-slate-700 flex justify-between"> <h6 className="text-0.5xl font-bold pl-3 pt-3">Company Name</h6>
-            <p className="text-sm text-slate-800 font-medium pt-5">Location</p>
+            <div className=" text-slate-700 flex justify-between"> <h6 className="text-0.5xl font-bold pl-3 pt-2">Company Name</h6>
+            <p className="text-sm text-slate-800 font-medium pt-2">Location</p>
             </div>
             <p className="text-xs italic pt-3 pl-5 text-gray-500 dark:text-gray-200">
                 Enter a one-line description of the Company where you were working with figures arounf revenue,geographic presence, no. of clients, etc.
               </p>
-              <ul className="leading-5 text-xs text-slate-800 font-medium list-disc italic pt-2 pl-10 pb-5">
+              <ul className="leading-5 text-xs text-slate-800 font-medium list-disc italic pt-2 pl-10">
                 <li>Use one-liner points to present the details of your part-time/professional experience
                 </li>
                 <li>Bold keywords and phrases where yoy would like to draw the recruiter's attention.
@@ -135,16 +136,16 @@ function Home() {
             {/* <h3 className="text-xl font-bold pl-3 pt-5 text-slate-700 uppercase">Personal experience</h3> */}
             
             <div className="flex justify-between">
-              <h3 className="  text-slate-700 text-base font-bold pl-3 pt-5">Official Designation</h3>
-              <p className="text-sm text-slate-800 font-medium pt-5">june'23 - sep'23</p>
+              <h3 className="  text-slate-700 text-base font-bold pl-3 pt-2">Official Designation</h3>
+              <p className="text-sm text-slate-800 font-medium pt-2 ">June'23 - Sep'23</p>
             </div>
-            <div className=" text-slate-700 flex justify-between"> <h6 className="text-0.5xl font-bold pl-3 pt-3">Company Name</h6>
-            <p className="text-sm text-slate-800 font-medium pt-5">Location</p>
+            <div className=" text-slate-700 flex justify-between"> <h6 className="text-0.5xl font-bold pl-3 pt-2">Company Name</h6>
+            <p className="text-sm text-slate-800 font-medium pt-2">Location</p>
             </div>
             <p className="text-xs italic pt-3 pl-5 text-gray-500 dark:text-gray-200">
                 Enter a one-line description of the Company where you were working with figures arounf revenue,geographic presence, no. of clients, etc.
               </p>
-              <ul className="leading-5 text-xs text-slate-800 font-medium list-disc italic pt-2 pl-10 pb-5">
+              <ul className="leading-5 text-xs text-slate-800 font-medium list-disc italic pt-2 pl-10">
                 <li>Use one-liner points to present the details of your part-time/professional experience
                 </li>
                 <li>Bold keywords and phrases where yoy would like to draw the recruiter's attention.
@@ -160,27 +161,27 @@ function Home() {
             <h3 className="text-xl font-bold pl-3 pt-5 text-slate-700 uppercase">INTERNSHIPS</h3>
             
             <div className="flex justify-between">
-              <h3 className="  text-slate-700 text-base font-bold pl-3 pt-5">Official Designation</h3>
-              <p className="text-sm text-slate-800 font-medium pt-5">june'23 - sep'23</p>
+              <h3 className="  text-slate-700 text-base font-bold pl-3 pt-2">Official Designation</h3>
+              <p className="text-sm text-slate-800 font-medium pt-2">June'23 - Sep'23</p>
             </div>
-            <div className=" text-slate-700 flex justify-between"> <h6 className="text-0.5xl font-bold pl-3 pt-3">Company Name</h6>
-            <p className="text-sm text-slate-800 font-medium pt-5">Location</p>
+            <div className=" text-slate-700 flex justify-between"> <h6 className="text-0.5xl font-bold pl-3 pt-2">Company Name</h6>
+            <p className="text-sm text-slate-800 font-medium pt-2">Location</p>
             </div>
             <p className="text-xs italic pt-3 pl-5 text-gray-500 dark:text-gray-200">
                 Enter a one-line description of the Company where you were working with figures arounf revenue,geographic presence, no. of clients, etc.
               </p>
             
             </div>
-            <div class="box-new ex"></div>
+            <div class="box-new"></div>
             <div class="box-content">
             <h3 className="text-xl font-bold pl-3 pt-5 text-slate-700 uppercase">EDUCATION</h3>
             
             <div className="flex justify-between">
-              <h3 className="  text-slate-700 text-base font-bold pl-3 pt-5">Degree with Major</h3>
-              <p className="text-sm text-slate-800 font-medium pt-5">june'23 - sep'23</p>
+              <h3 className="  text-slate-700 text-base font-bold pl-3 pt-2">Degree with Major</h3>
+              <p className="text-sm text-slate-800 font-medium pt-2">June'23 - Sep'23</p>
             </div>
-            <div className=" text-slate-700 flex justify-between"> <h6 className="text-0.5xl font-bold pl-3 pt-3">Enter the name if the educational institution</h6>
-            <p className="text-sm text-slate-800 font-medium pt-3 pl-14">Enter location(with state)</p>
+            <div className=" text-slate-700 flex justify-between"> <h6 className="text-0.5xl font-bold pl-3 pt-2">Enter the name if the educational institution</h6>
+            <p className="text-sm text-slate-800 font-medium pt-2 pl-14">Enter location(with state)</p>
             </div>
             <p className="text-xs italic pt-3 pl-5 text-gray-500 dark:text-gray-200">
                 Enter a one-line description of the Company where you were working with figures arounf revenue,geographic presence, no. of clients, etc.
