@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 506px) {
+  section .background-grey{
+    max-width: 450px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  section .background-grey{
+    max-width: 300px;
+    margin-left: 20px;
+  }
+}
+
+
+
+.box{
+  background: rgb(252,98,116);
+background: linear-gradient(90deg, rgba(252,98,116,1) 0%, rgba(253,118,99,1) 48%, rgba(228,140,78,0.9447129193474265) 100%, rgba(255,151,69,1) 100%);
+  width:100%;
+  height:2.5rem;
+}
+.box-new{
+  background: rgb(252,98,116);
+background: linear-gradient(90deg, rgba(252,98,116,1) 0%, rgba(253,118,99,1) 48%, rgba(228,140,78,0.9447129193474265) 100%, rgba(255,151,69,1) 100%);
+  width:100%;
+  height:0.3rem;
+  border-radius: 2px;
+  padding-top:5px;
+  margin-top:10px;
+}
+.ex{
+  margin-top:30px;
+}
+.sidebar{
+  width:45%;
+  height:100vh;
+
+}
+.main-content{
+  width: 100%;
+  padding-inline:10px;
+
+}
+.contact-txt{
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding-left:5px;
+  color: rgb(252,98,116);
+}
+svg{
+  color: rgb(252,98,116);
+}
+span{
+  color:black;
+}
+p,ul{
+  color:grey;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  height:100%;
+}
+.background-grey{
+  background-color: white;
+  max-width: 50rem;
+}
+
+
