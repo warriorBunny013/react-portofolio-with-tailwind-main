@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { BeakerIcon } from '@heroicons/react/24/solid'
 
 function Home() {
  
